@@ -1,4 +1,9 @@
 package com.serdardemirci.simplespringbootapp.dtos;
 
-public class UserDto {
+import lombok.Data;
+
+@Data
+public class UserDto{
+    private String name;
+
 }
